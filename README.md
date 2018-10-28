@@ -1,5 +1,6 @@
 # Using Markdown as Notes Toker with Atom 
 My setup for using atom as note taker
+
 ##### Install:
   - `markdown-writer`
   - `language-markdown`
@@ -17,6 +18,30 @@ My setup for using atom as note taker
   - `Visibility` select `showToolbarOnMarkdown`
 - (Optional) `markdown-table-editor`
   - Check `Format on Save`
+
+### Example
+```js
+class ClassName {
+  constructor() {
+    
+  }
+}
+```
+
+### Dark Mode
+```
+<style>
+.markdown-preview {
+  background: #1d252c !important;
+  color: #aaa !important;
+}
+.markdown-preview code {
+  background: #000 !important;
+  /* box-shadow: 0 0px 2px #fff !important; */
+  color: #0aa !important;
+}
+</style>
+```
 
 ### Reference
 - Read GA WDI's Markdown Repo
